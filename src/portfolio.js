@@ -138,9 +138,54 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Projects",
+  subtitle: "SOME PROJECTS WHICH WE BUILD DURING CONSTRUCT WEEKS",
+  projects: [
+    {
+      image: require("./assets/images/groferlog.png"),
+      projectName: "Grofers Application-Clone",
+      projectDesc: "A clone of the Amazon Prime Video App. Using this application you can buy Stocks and Mutual fundsa and also analyze which is best.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/primevideo.jpg"),
+      projectName: "Prime-Video Application Clone",
+      projectDesc: "A clone of the Amazon Prime Video App. Using this application you can watch movies and shows from anywhere.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/growIcon.png"),
+      projectName: "Grow Application",
+      projectDesc: "A clone of the Amazon Prime Video App. Using this application you can watch movies and shows from anywhere.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Work experience section
 
 const workExperiences = {
+  title: "Projects Details",
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
@@ -187,51 +232,6 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
-const bigProjects = {
-  display:true,
-  title: "Projects",
-  subtitle: "SOME PROJECTS WHICH WE BUILD DURING CONSTRUCT WEEKS",
-  projects: [
-    {
-      image: require("./assets/images/groferlog.png"),
-      projectName: "Grofers Application-Clone",
-      projectDesc: "A clone of the Amazon Prime Video App. Using this application you can buy Stocks and Mutual fundsa and also analyze which is best.",
-      footerLink: [
-        {
-          name: "Github",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/primevideo.jpg"),
-      projectName: "Prime-Video Application Clone",
-      projectDesc: "A clone of the Amazon Prime Video App. Using this application you can watch movies and shows from anywhere.",
-      footerLink: [
-        {
-          name: "Github",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/growIcon.png"),
-      projectName: "Grow Application",
-      projectDesc: "A clone of the Amazon Prime Video App. Using this application you can watch movies and shows from anywhere.",
-      footerLink: [
-        {
-          name: "Github",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
   display: true // Set false to hide this section, defaults to true
 };
 
