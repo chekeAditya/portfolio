@@ -151,7 +151,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Github",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/chekeAditya/Grofers"
         }
         //  you can add extra buttons here.
       ]
@@ -163,7 +163,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Github",
-          url: "http://nextu.se/"
+          url: "https://github.com/chekeAditya/Amazon-Prime"
         }
       ]
     },
@@ -174,7 +174,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Github",
-          url: "http://nextu.se/"
+          url: "https://github.com/chekeAditya/Grow-Application"
         }
       ]
     }
@@ -185,7 +185,7 @@ const bigProjects = {
 // Work experience section
 
 const workExperiences = {
-  title: "Projects Details",
+  title: "Project Details",
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {

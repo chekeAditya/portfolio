@@ -54,7 +54,9 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={email} />
+              <img style= {{width:"400px",height:"400px",float:"right",marginRight:"20%",marginTop:"1%"}}
+              src={require("../../assets/images/circleImageAditya.png")}
+            ></img>
             ) : (
               <img
                 alt="Man working"
